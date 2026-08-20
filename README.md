@@ -1,17 +1,25 @@
 # Brandon Behring
 
-**Learning systems & research-infrastructure builder.** Applied causal methods,
-AI-evaluation methodology, and long-form technical books — built to learn, with
-an auditable claim-to-source trail.
+**Applied mathematician (PhD). I build systems that are honest about what they don't know.**
 
-### 🌐 [brandon-behring.dev](https://brandon-behring.dev)
+I work on **LLM evaluation** and **document AI**: evaluation harnesses with real statistics,
+golden datasets with documented rubrics, and extraction pipelines whose accuracy is measured,
+not asserted. Four years shipping production models at a Fortune-100 insurer; most recently a
+document-AI research contract. Currently available for evaluation and document-AI work.
 
-**Live now**
+## Where to look
 
-- 📘 [ssm-foundations](https://ssm-foundations.brandon-behring.dev) — foundations book on sequence models (SSMs, Mamba)
-- 📗 [double_ml_time_series](https://dml.brandon-behring.dev) — double machine learning for time series (Chapter 1 live)
-- 🕸️ [RL + Control citation graph](https://brandon-behring.dev/lab/research-graph/) — interactive research demo
-- 🔬 [Prompt-injection OOD study](https://brandon-behring.github.io/prompt-injection-detection-prototype/) — evaluation-methodology case study
+- **[eval-toolkit](https://github.com/brandon-behring/eval-toolkit)** — evaluation library on PyPI:
+  bootstrap confidence intervals, leakage checks, versioned result schemas, CI gates.
+- **[prompt-injection-detection-prototype](https://github.com/brandon-behring/prompt-injection-detection-prototype)** —
+  a full detection study published *with its negative result*: confidence intervals, baseline
+  contamination disclosed, failure modes analyzed. Honest evaluation, demonstrated.
+- **[ir-eval](https://github.com/brandon-behring/ir-eval)** — statistical retrieval evaluation for
+  CI/CD: paired tests and drift detection, because most RAG systems fail silently.
+- **[research-kb](https://github.com/brandon-behring/research-kb)** — a multi-thousand-source
+  research knowledge base: PDF ingestion → hybrid retrieval (BM25 + vectors + reranking) → MCP
+  server, with a retrieval eval suite gating the weekly rebuild.
+- **[temporalcv](https://github.com/brandon-behring/temporalcv)** — released Python package for
+  time-series cross-validation with gap enforcement (the leakage everyone ships).
 
-**How the work is made** — every claim traces to a real source:
-[how this was made →](https://brandon-behring.dev/how-this-was-made/)
+Site: [brandon-behring.dev](https://brandon-behring.dev)
