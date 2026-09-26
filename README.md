@@ -2,11 +2,11 @@
 
 **Applied mathematician (PhD). I build systems that are honest about what they don't know.**
 
-I work on **LLM evaluation** and **document AI**: evaluation harnesses with statistical
-uncertainty, golden datasets with documented rubrics, and extraction pipelines whose accuracy
-is measured rather than assumed. Previously, I spent four years shipping production models at
-a Fortune 100 insurer, followed by a document-AI research contract. I'm available for
-evaluation and document-AI work.
+I work on **LLM evaluation**: evaluation harnesses with statistical uncertainty, golden datasets
+with documented rubrics, and pipelines whose accuracy is measured rather than assumed. Previously,
+I spent four years shipping production models at a Fortune 100 insurer, followed by a short ML
+research contract in document AI over the summer, which has ended. I'm now looking for
+statistical modeling work in insurance.
 
 ## Where to look
 
@@ -17,9 +17,6 @@ evaluation and document-AI work.
   contamination disclosed, failure modes analyzed. Honest evaluation, demonstrated.
 - **[ir-eval](https://github.com/brandon-behring/ir-eval)** — statistical retrieval evaluation for
   CI/CD, with paired tests and drift detection over golden-set results.
-- **[research-kb](https://github.com/brandon-behring/research-kb)** — a multi-thousand-source
-  research knowledge base: PDF ingestion → hybrid retrieval (BM25 + vectors + reranking) → MCP
-  server, with a retrieval eval suite gating the weekly rebuild.
 - **[temporalcv](https://github.com/brandon-behring/temporalcv)** — released Python package for
   time-series cross-validation with gap enforcement and leakage checks.
 
